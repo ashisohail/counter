@@ -6,7 +6,7 @@ const Counter = ({ increment, decrement }) => {
   const count = useSelector((state) => state.counter.count);
   return (
     <div>
-      <h2>My Redus Counter</h2>
+      <h2>My Redux Counter</h2>
       <h3>Count: {count} </h3>
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
