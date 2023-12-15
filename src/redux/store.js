@@ -1,7 +1,10 @@
-// import { configureStore } from "@redusjs/toolkit";
-import * as toolkitRaw from "@reduxjs/toolkit";
-const { configureStore } = toolkitRaw.default ?? toolkitRaw;
+import { configureStore } from "@reduxjs/toolkit";
+
 import counterReducer from "./reducers";
 
-const store = configureStore(counterReducer);
+const store = configureStore({
+  reducer: {
+    counter: counterReducer,
+  },
+});
 export default store;
