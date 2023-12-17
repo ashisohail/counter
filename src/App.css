@@ -15,3 +15,8 @@
   background-color: black;
   color: whitesmoke;
 }
+
+.light-theme {
+  background-color: whitesmoke;
+  color: black;
+}

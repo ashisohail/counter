@@ -2,18 +2,19 @@ header {
   height: 60px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: whitesmoke;
   width: 100%;
   position: fixed;
   top: 0;
   overflow: hidden;
   z-index: 10;
-  padding: 0px 50px;
 }
 
-.nav-container {
+.nav-container > button {
   transition: all 0.3s ease-in-out;
+  color: #d64c31;
+  padding: 5px 8px;
 }
 
 .logo > a {

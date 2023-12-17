@@ -5,3 +5,11 @@ export const increment = () => ({
 export const decrement = () => ({
   type: "DECREMENT",
 });
+
+// export const lightTheme = () => ({
+//   type: "LIGHT",
+// });
+
+// export const darkTheme = () => ({
+//   type: "DARK",
+// });
