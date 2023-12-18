@@ -15,6 +15,7 @@ header {
   transition: all 0.3s ease-in-out;
   color: #d64c31;
   padding: 5px 8px;
+  border-radius: 20px;
 }
 
 .logo > a {

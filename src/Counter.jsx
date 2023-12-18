@@ -7,9 +7,13 @@ const Counter = ({ increment, decrement }) => {
   return (
     <div>
       <h2>My Redux Counter</h2>
-      <h3>Count: {count} </h3>
-      <button onClick={increment}>Increment</button>
-      <button onClick={decrement}>Decrement</button>
+      <h3 className="count">Count: {count} </h3>
+      <button className="btn" onClick={increment}>
+        Increment
+      </button>
+      <button className="btn decrement" onClick={decrement}>
+        Decrement
+      </button>
     </div>
   );
 };

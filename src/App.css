@@ -20,3 +20,16 @@
   background-color: whitesmoke;
   color: black;
 }
+
+.btn {
+  padding: 5px 8px;
+  border-radius: 20px;
+}
+
+.decrement {
+  margin-left: 10px;
+}
+
+.count {
+  margin: 10px 0;
+}
